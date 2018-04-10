@@ -1,0 +1,14 @@
+intructions to install DLib and face_recog on Raspi:-
+https://gist.github.com/ageitgey/1ac8dbe8572f3f533df6269dab35df65
+
+Raspi code for facial recognition:-
+https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_on_raspberry_pi.py
+
+how facial_recognition works:-
+https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
+
+facial recognition using knn:-
+https://github.com/ageitgey/face_recognition/blob/master/examples/face_recognition_knn.py
+
+
+

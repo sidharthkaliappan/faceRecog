@@ -2,11 +2,14 @@ import face_recognition
 import cv2
 from pathlib import Path
 
-facefolder_path="" #enter path directory
-testfolder_path="" # enter path directory
+facefolder_path="/project/faceDR/faces/faces/"
+testfolder_path="/project/faceDR/test images/test images"
+
 
 image_paths_names=[[str(i),i.name[:-4]] for i in Path(facefolder_path).glob("*.jpg")]
 test_paths_names=[[str(i),i.name[:-4]] for i in Path(testfolder_path).glob("*.jpg")]
+
+print(len(image_paths_names))
 
 known_face_encodings=[face_recognition.face_encodings(face_recognition.load_image_file(i[0]))[0] for i in image_paths_names]
 
