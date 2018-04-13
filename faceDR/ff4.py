@@ -3,12 +3,12 @@ import cv2
 from pathlib import Path
 ################################################################################
 
-facefolder_path="" #enter known faces folder
-testfolder_path="" #enter testcase folder
-resultfolder_path="" #enter path for images to be stored
+facefolder_path="faces/faces/" #enter known faces folder
+testfolder_path="test images/test images" #enter testcase folder
+resultfolder_path="store/" #enter path for images to be stored
 
 Tolerance=0.6
-scaling_factor=0.25
+scaling_factor=1
 hog_model= ("hog",1)
 cnn_model=("cnn",0)
 

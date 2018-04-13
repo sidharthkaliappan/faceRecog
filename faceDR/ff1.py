@@ -2,8 +2,8 @@ import face_recognition
 import cv2
 from pathlib import Path
 
-facefolder_path="" #enter face folder path
-testfolder_path="" # enter test cases path
+facefolder_path="faces/faces/" #enter face folder path
+testfolder_path="test images/test images/" # enter test cases path
 
 image_paths=[str(i) for i in Path(facefolder_path).glob("*.jpg")]
 test_paths=[str(i) for i in Path(testfolder_path).glob("*.jpg")]
